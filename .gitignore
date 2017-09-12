@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.gradle/
+.idea/
+build.gradle
+build/
+gradle/
+gradlew
+gradlew.bat
+import-summary.txt
+local.properties
+settings.gradle
+shopapp/.gitignore
+shopapp/build.gradle
+shopapp/libs/
+shopapp/proguard-rules.pro
+shopapp/shopapp.iml
+shopapp_android19/
+shopapp_example.iml

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.example.neu.util.imagecycleview.ImageCycleView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+		    <FrameLayout android:layout_width="match_parent"
+		    	android:layout_height="wrap_content">
+		
+			    <ProgressBar
+			        android:id="@+id/progressBar1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:visibility="visible" />
+		
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" >
+			        <TextView
+			            android:id="@+id/textView1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center"
+			            android:padding="3dp"
+			            android:text="新到商品" />
+			        <com.example.neu.util.MyGridView
+				        android:id="@+id/newGoods"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:numColumns="auto_fit"
+				        android:columnWidth="100dp" 
+				        android:horizontalSpacing="1dp"
+				        android:layout_margin="6dp">
+			    	</com.example.neu.util.MyGridView>
+			    </LinearLayout>
+		
+		    </FrameLayout>
+		    <FrameLayout android:layout_width="match_parent"
+		    	android:layout_height="wrap_content">
+			    
+		
+			    <ProgressBar
+			        android:id="@+id/progressBar2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical|center_horizontal"
+			        android:visibility="visible" />
+		
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" >
+			        <TextView
+			            android:id="@+id/textView2"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center"
+			            android:padding="3dp"
+			            android:text="热销商品" />
+			        <com.example.neu.util.MyGridView
+				        android:id="@+id/salesGoods"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:numColumns="auto_fit"
+				        android:columnWidth="100dp" 
+				        android:horizontalSpacing="1dp"
+				        android:layout_margin="6dp" >
+			    	</com.example.neu.util.MyGridView>
+			    </LinearLayout>
+		
+		    </FrameLayout>
+
+		   
+		</LinearLayout>
+	        
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    tools:context=".GoodsDetailActivity" >
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		<ProgressBar
+	        android:id="@+id/progressBar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:visibility="visible" />
+		<LinearLayout android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+		    android:orientation="vertical">
+		    <com.example.neu.util.imagecycleview.ImageCycleView
+		        android:id="@+id/ad_view"
+		        android:layout_width="match_parent"
+		        android:layout_height="260dp" />
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="14sp"
+		        android:textColor="#3D3D3D"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsName" 
+		        android:layout_margin="1dp"
+		        android:padding="10dp"/>
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="12sp"
+		        android:textColor="#FF0000"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsMaterial" 
+		        android:layout_margin="1dp"
+		        android:padding="10dp"/>
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="15sp"
+		        android:textColor="#FF0000"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsPrice" 
+		        android:layout_margin="0dp"
+		        android:padding="10dp"/>
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="12sp"
+		        android:textColor="#3D3D3D"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsPostalfee" 
+		        android:layout_marginTop="10dp"
+		        android:padding="10dp"/>
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="12sp"
+		        android:textColor="#3D3D3D"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsSales" 
+		        android:layout_marginTop="10dp"
+		        android:padding="10dp"/>
+		    <FrameLayout android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="10dp">
+			    <TextView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="New Text"
+			        android:textSize="12sp"
+			        android:textColor="#3D3D3D"
+			        android:background="#FFFFFF"
+			        android:id="@+id/goodsCS" 		        
+			        android:padding="10dp"/>
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:drawableRight="@drawable/circle"
+			        android:layout_gravity="right|center_vertical"
+			        android:layout_marginRight="10dp"/>
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:drawableRight="@drawable/circle"
+			        android:layout_gravity="right|center_vertical"
+			        android:layout_marginRight="20dp"/>
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:drawableRight="@drawable/circle"
+			        android:layout_gravity="right|center_vertical"
+			        android:layout_marginRight="30dp"/>
+		    </FrameLayout>
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="New Text"
+		        android:textSize="12sp"
+		        android:textColor="#3D3D3D"
+		        android:background="#FFFFFF"
+		        android:id="@+id/goodsDisc" 
+		        android:layout_marginTop="10dp"
+		        android:padding="10dp"/>
+		    <Button
+		       android:id="@+id/addcart"
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:layout_margin="10dp"
+		       android:background="@drawable/button_bk"
+		       android:text="加入购物车" />
+		</LinearLayout>
+	</FrameLayout>
+</ScrollView>

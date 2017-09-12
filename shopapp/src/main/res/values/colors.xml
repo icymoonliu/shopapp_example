@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textcolor_checked">#45C01A</color>
+
+    <color name="textcolor">#BEBEBE</color>
+
+    <color name="main_tab_bg">#F7F7F8</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="blue">#0000EE</color>
+
+    <color name="edittext_bk_top">#E3E3E3</color>
+
+    <color name="edittext_bk_center">#F6F6ee</color>
+
+    <color name="edittext_bk_bottom">#FFFFFF</color>
+
+    <color name="title_bk_top">#CCFFFF</color>
+
+    <color name="title_bk_center">#33FFFF</color>
+
+    <color name="title_bk_bottom">#3366FF</color>
+
+    <color name="button_bk">#cdc9c9</color>
+
+    <color name="button_gradient">#82d3e5</color>
+
+    <color name="button_gradient_release">#82d3e5</color>
+
+    <color name="button_gradient_pressed">#00bfff</color>
+
+    <color name="button_stroke">#c8c6ba</color>
+
+    <color name="button_pressed_gradient">#00bfff</color>
+
+    <color name="button_pressed_stroke">#ededed</color>
+
+    <color name="title_side_bkcolor">#55aabe</color>
+
+    <color name="checked_color">#BEBEBE</color>
+
+    <color name="nochecked_color">#45C01A</color>
+
+    <color name="divider">#ff333333</color>
+    <color name="press">#80323232</color>
+</resources>

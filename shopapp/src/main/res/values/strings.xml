@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">在线购物App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_auto_login">在线购物App</string>
+    <string name="title_activity_home">良品专卖</string>
+    <string name="title_activity_search">搜索</string>
+    <string name="title_activity_goods">商品</string>
+    <string name="title_activity_goods_detail">商品详情</string>
+    <string name="title_activity_size_color">请选择购买尺码、颜色和数量</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="reg_user">注册新用户</string>
+    <string name="reg_userName">请输入用户名</string>
+    <string name="reg_userPass">输入密码</string>
+    <string name="reg_userPassRe">再次输入密码</string>
+    <string name="reg_userAge">请输入年龄</string>
+    <string name="reg_userMail">请输入邮箱</string>
+    <string name="reg_btnReg">注册</string>
+    <string name="reg_sex">性别：</string>
+    <string name="boy">男</string>
+    <string name="gril">女</string>
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+
+    <string name="release_to_refresh">释放立即刷新</string>
+
+    <string name="refreshing">正在刷新…</string>
+
+    <string name="not_updated_yet">暂未更新过</string>
+
+    <string name="updated_at">上次更新于%1$s前</string>
+
+    <string name="updated_just_now">刚刚更新</string>
+
+    <string name="time_error">时间有问题</string>
+
+    <string name="title_activity_reg">RegActivity</string>
+
+    <string name="title_activity_main">MainActivity</string>
+</resources>
